@@ -16,6 +16,8 @@
 
 
 int main() {
+
+	// Critical Angle
 	const double ri{};
 	const double ni{};
 	double ca{};
