@@ -26,7 +26,7 @@ int main() {
 	double enviroFactor = ni_input(ni);
 	ca = criticalAngle(enviroFactor, refractiveIndex);
 
-//	std::cout << "The critical angle is: " << toDegs(ca) << std::endl;
+	std::cout << "The refractive index is: " << refractiveIndex << std::endl;
 	std::cout << "The critical angle is: " << ca << std::endl;
 
 	return 0;
