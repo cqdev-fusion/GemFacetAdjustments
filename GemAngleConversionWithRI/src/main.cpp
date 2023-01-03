@@ -7,27 +7,28 @@
 //============================================================================
 
 #include <iostream>
-#include <math.h>
-
-#include "aConversions.h"
-#include "userInput.h"
-#include "criticalAngle.h"
+#include "UserInput.h"
 
 
 
 int main() {
 
 	// Critical Angle
-	const double ri{};
-	const double ni{};
-	double ca{};
+//	double ri{};
+//	double ni{};
+//	double ca{};
+//
+//	double refactiveIndex = userInput(ri);
+//	double enviroFactor = userInput(ni);
+//	ca = criticalAngle(enviroFactor, ri);
+//
+//	std::cout << "The refractive index is: " << refractiveIndex << std::endl;
+//	std::cout << "The critical angle is: " << ca << std::endl;
 
-	double refractiveIndex = ri_input(ri);
-	double enviroFactor = ni_input(ni);
-	ca = criticalAngle(enviroFactor, refractiveIndex);
+	UserInput user;
 
-	std::cout << "The refractive index is: " << refractiveIndex << std::endl;
-	std::cout << "The critical angle is: " << ca << std::endl;
+	double ri = user.input;
+	std::cout << ri << std::endl;
 
 	return 0;
 }
